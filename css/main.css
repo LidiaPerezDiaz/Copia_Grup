@@ -17,8 +17,7 @@ body{
   grid-template-rows: 10vh 5vh 30vh 5vh 30vh 5vh 10vh;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-
-}
+  }
 
 #container .cabeçera{
   padding: 9px;
@@ -51,118 +50,4 @@ body{
        0px 10px 100px #ff0099,
        0px -10px 100px #ff0099,
        0px -10px 100px #ff0099;
-
-}
-
-#container .Texto1{
-  padding: 9px;
-  background-color:#596ac3;
-  border-radius: 5px;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  font-size:15px;
-}
-
-#container .imagen1{
-  padding: 9px;
-  border-radius: 5px;
-  grid-column: 2/3;
-  grid-row: 3/4;
-  background-color:#ff0066;
-}
-
-#container .Texto2{
-  padding: 9px;
-  background-color:#ff9800;
-  border-radius: 5px;
-  grid-column: 3/4;
-  grid-row: 4/5;
-  font-size:20px;
-}
-
-#container .imagen2{
-  padding: 9px;
-  border-radius: 5px;
-  grid-column: 3/4;
-  grid-row: 5/6;
-  background-color:#ff0066;
-}
-
-#container .Texto3{
-  padding: 9px;
-  background-color:#459800;
-  border-radius: 5px;
-  grid-column: 2/3;
-  grid-row: 4/5;
-  font-size:20px;
-}
-
-#container .imagen3{
-  padding: 9px;
-  border-radius: 5px;
-  grid-column: 2/3;
-  grid-row: 5/6;
-  background-color:#ff0066;
-}
-
-#container .Texto4{
-  padding: 9px;
-  background-color:#2a0878;
-  border-radius: 5px;
-  grid-column: 3/4;
-  grid-row: 2/3;
-  font-size:25px;
-}
-
-#container .imagen4{
-  padding: 9px;
-  border-radius: 5px;
-  grid-column: 3/4;
-  grid-row: 3/4;
-  background-color:#ff0066;
-}
-
-#container .pie{
-  grid-row: 7/8;
-  grid-column: 2/6;
-  font-size:30px;
-  text-shadow:0px 0px 5px #fff,
-    0px 0px 7px #ff0000;
-  text-shadow:0px 0px 10px #fff,
-       0px 0px 10px #fff,
-       0px 0px 25px #fff,
-       0px 0px 25px #fff,
-       0px 0px 25px #fff,
-       0px 0px 25px #fff,
-       0px 0px 25px #fff,
-       0px 0px 25px #fff,
-       0px 0px 50px #fff,
-       0px 0px 50px #fff,
-       0px 0px 50px #009921,
-       0px 0px 150px #009921,
-       0px 10px 100px #009921,
-       0px 10px 100px #009921,
-       0px 10px 100px #009921,
-       0px 10px 100px #009921,
-       0px 10px 100px #009921,
-       0px 10px 100px #009921;
-}
-
-
-
-#container .imagen1 img{
-  width: 100%;
-  height:101%;
-}
-#container .imagen2 img{
-  width: 101%;
-  height: 101%;
-}
-#container .imagen3 img{
-  width: 100%;
-  height: 101%;
-}
-#container .imagen4 img{
-  width: 101%;
-  height: 101%;
-}
+ }
