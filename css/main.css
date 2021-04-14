@@ -11,15 +11,13 @@ body{
   background-size: cover;
 }
 
-#container{
+#pages{
   display:grid;
   grid-template-columns: 3.75fr 8.75fr 8.75fr 3.75fr;
   grid-template-rows: 10vh 5vh 30vh 5vh 30vh 5vh 10vh;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  }
+}
 
-#container .cabeçera{
+#pages .cabecera{
   padding: 9px;
   background-color:#FFFFFF;
   border-radius: 5px;
@@ -80,4 +78,9 @@ body{
   background-color:#ff9800;
   grid-column: 2/3;
   grid-row: 5/6;
+}
+
+img{
+  height: 100%;
+  width:100%;
 }
