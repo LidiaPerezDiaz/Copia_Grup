@@ -58,26 +58,26 @@ body{
   padding: 9px;
   background-color:#ff9800;
   grid-column: 2/3;
-  grid-row: 3/6;
+  grid-row: 4/2;
 }
 
 #pages .okb3{
   padding: 9px;
   background-color:#ff9800;
-  grid-column: ;
-  grid-row: ;
+  grid-column: 2/3;
+  grid-row: 3/3;
 }
 
 #pages .okb4{
   padding: 9px;
   background-color:#ff9800;
-  grid-column: ;
-  grid-row: ;
+  grid-column: 2/3;
+  grid-row: 6/4;
 }
 
 #pages .okb5{
   padding: 9px;
   background-color:#ff9800;
-  grid-column: ;
-  grid-row: ;
+  grid-column: 2/3;
+  grid-row: 5/6;
 }
