@@ -95,3 +95,10 @@ body{
 #pages .okb5 img{
   width: 90%;
   height: 90%;
+}
+
+#pages .texto1{
+  padding: 9px;
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
