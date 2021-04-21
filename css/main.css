@@ -77,25 +77,39 @@ body{
 }
 
 #pages .textoA{
+  text-align: center;
   padding: 9px;
   grid-column: 1/1;
   grid-row: 4/4;
 }
 
 #pages .textoB{
+  text-align: center;
   padding: 9px;
-  grid-column: 1/4;
+  grid-column: 2/2;
   grid-row: 4/-4;
 }
 
 #pages .textoC{
+  text-align: center;
+  padding: 9px;
+  grid-column: 3/3;
+  grid-row: 4/-4;
+}
+
+#pages .textoD{
+  text-align: center;
+  padding: 9px;
+  grid-column: 4/4;
+  grid-row: 4/-4;
+}
+
+#pages .textoE{
+  text-align: center;
   padding: 9px;
   grid-column: 1/4;
   grid-row: 4/-4;
 }
-
-
-
 #pages .okb img{
   width: 90%;
   height: 90%;
@@ -106,7 +120,7 @@ body{
 }
 #pages .okb3 img{
   width: 100%;
-  height: 120%;
+  height: 100%;
 }
 #pages .okb4 img{
   width: 90%;
