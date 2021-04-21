@@ -107,8 +107,13 @@ body{
 #pages .textoE{
   text-align: center;
   padding: 9px;
+<<<<<<< HEAD
   grid-column: 5/6;
   grid-row: 4/5;
+=======
+  grid-column: 5/4;
+  grid-row: 4/-4;
+>>>>>>> 918326f41c5bbf0238f43a11fbe210bba6c500fd
 }
 #pages .okb img{
   width: 90%;
