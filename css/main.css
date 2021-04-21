@@ -107,7 +107,7 @@ body{
 #pages .textoE{
   text-align: center;
   padding: 9px;
-  grid-column: 1/4;
+  grid-column: 5/4;
   grid-row: 4/-4;
 }
 #pages .okb img{
