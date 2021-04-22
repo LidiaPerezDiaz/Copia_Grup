@@ -116,28 +116,28 @@ body{
 >>>>>>> 918326f41c5bbf0238f43a11fbe210bba6c500fd
 }
 #pages .okb img{
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 80%;
 }
 #pages .okb2 img{
-  width: 90%;
-  height: 90%;
+  width: 110%;
+  height: 80%;
 }
 #pages .okb3 img{
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 #pages .okb4 img{
   width: 90%;
   height: 90%;
 }
 #pages .okb5 img{
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 80%;
 }
 #pages .okb6 img{
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 110%;
 }
 #pages .texto1{
   padding: 9px;
