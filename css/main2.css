@@ -5,26 +5,28 @@
 
 body{
   font-family: 'Ubuntu', sans-serif;
-  background-color: #000000;
-  color:RED;
+  background-color: #EFEFEF;
+  color:white;
+  font-size: 22px;
   background-image: url("../img/negro.jpg");
   background-size: cover;
 }
 
 #container{
   display:grid;
+  border: 1px solid red;
   grid-template-columns: 3.75fr 8.75fr 8.75fr 3.75fr;
-  grid-template-rows: 10vh 5vh 30vh 5vh 30vh 5vh 10vh;
+  grid-template-rows: 10vh 8vh 30vh 4vh 30vh 8vh 10vh;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-
 }
 
-#container .cabeçera{
+
+#container .cabecera{
   padding: 9px;
-  background-color:#FFFFFF;
+  background-color:#0000000;
   border-radius: 5px;
-  grid-column: 1/6;
+  grid-column: 2/4;
   grid-row: 1/2;
   font-size:30px;
   text-align:center;
@@ -44,14 +46,7 @@ body{
        0px 0px 50px #fff,
        0px 0px 50px #fff,
        0px 0px 50px #ff0099,
-       0px 0px 150px #ff0099,
        0px 10px 100px #ff0099,
-       0px 10px 100px #ff0099,
-       0px 10px 100px #ff0099,
-       0px 10px 100px #ff0099,
-       0px -10px 100px #ff0099,
-       0px -10px 100px #ff0099;
-
 }
 
 #container .Texto1{
