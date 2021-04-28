@@ -5,117 +5,126 @@
 
 body{
   font-family: 'Ubuntu', sans-serif;
-  background-color: black;
+  background-color: #EFEFEF;
   color:white;
   font-size: 22px;
-  background-image: url("../img/sb.jpg");
+  background-image: url("../img/neo.jpg");
   background-size: cover;
 }
 
 #container{
   display:grid;
-  border: 1px solid red;
-  grid-template-columns: 3.75fr 8.75fr 8.75fr 3.75fr;
+  grid-template-columns: 3.75fr 6.75fr 6.75fr 3.75fr;
   grid-template-rows: 10vh 8vh 30vh 4vh 30vh 8vh 10vh;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+  background-color: #40E0D0
 }
 
- #pages .okb{
-   border-radius: 5px;
-   grid-column: 3/4;
-   grid-row: 5/6;
-}
-
-#pages .okb2{
+#container .cabecera{
   padding: 9px;
-  grid-column: 5/5;
-  grid-row: 5/6;
+  background-color:#000000;
+  border-radius: 5px;
+  grid-column: 1/6;
+  grid-row: 1/2;
+  font-size:30px;
+  text-align:center;
+  text-indent:35px;
+  text-decoration:underline
+  animation:blur 2s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+    0px 0px 7px #ff0000;
+  text-shadow:0px 0px 10px #fff,
+   0px 0px 10px #fff,
+   0px 0px 25px #fff,
+   0px 0px 50px #fff,
+   0px -10px 100px #ff0099,
+   0px -10px 100px #ff0099;
+ }
+
+#container .texto1{
+  padding: 9px;
+  background-color:#FF1493;
+  border-radius: 5px;
+  grid-column: 2/2;
+  grid-row: 4/2;
 }
 
-#pages .okb3{
+#container .imagen1{
   padding: 9px;
+  background-color:#FF1493;
+  border-radius: 5px;
+  grid-column: 2/3;
+  grid-row: 3/3;
+}
+
+#container .texto2{
+  padding: 9px;
+  background-color:#FF1493;
+  border-radius: 5px;
+  grid-column: 2/3;
+  grid-row: 6/4;
+}
+
+#container .imagen2{
+  padding: 9px;
+  background-color:#FF1493;
+  border-radius: 5px;
   grid-column: 2/3;
   grid-row: 5/6;
 }
 
-#pages .okb5{
+#container .texto3{
   padding: 9px;
-  grid-column: 4/5;
-  grid-row: 5/-4;
+  background-color:#FF1493;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 6/4;
 }
 
-#pages .okb6{
+#container .imagen3{
   padding: 9px;
-  grid-column: 1/1;
+  background-color:#FF1493;
+  border-radius: 5px;
+  grid-column: 3/3;
   grid-row: 5/6;
 }
 
-#pages .textoA{
-  text-align: center;
+#container .texto4{
   padding: 9px;
-  grid-column: 1/1;
-  grid-row: 4/4;
+  background-color:#FF1493;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 2/4;
 }
 
-#pages .textoB{
-  text-align: center;
+#container .imagen4{
   padding: 9px;
-  grid-column: 2/2;
-  grid-row: 4/-4;
-}
-
-#pages .textoC{
-  text-align: center;
-  padding: 9px;
+  background-color:#FF1493;
+  border-radius: 5px;
   grid-column: 3/3;
-  grid-row: 4/-4;
+  grid-row: 3/4;
 }
-
-#pages .textoD{
-  text-align: center;
+#container .texto8{
   padding: 9px;
-  grid-column: 4/4;
-  grid-row: 4/-4;
+  background-color:#9400D3;
+  border-radius: 5px;
+  grid-column: 2/4;
+  grid-row: 1/;
 }
-
-#pages .textoE{
-  text-align: center;
-  padding: 9px;
-<<<<<<< HEAD
-  grid-column: 5/6;
-  grid-row: 4/5;
-=======
-  grid-column: 5/4;
-  grid-row: 4/-4;
->>>>>>> 918326f41c5bbf0238f43a11fbe210bba6c500fd
-}
-#pages .okb img{
-  width: 100%;
-  height: 80%;
-}
-#pages .okb2 img{
-  width: 110%;
-  height: 80%;
-}
-#pages .okb3 img{
-  width: 100%;
-  height: 80%;
-}
-#pages .okb4 img{
+#container .imagen1 img{
   width: 90%;
   height: 90%;
 }
-#pages .okb5 img{
-  width: 100%;
-  height: 80%;
+#container .imagen2 img{
+  width: 90%;
+  height: 90%;
 }
-#pages .okb6 img{
-  width: 100%;
-  height: 110%;
+#container .imagen3 img{
+  width: 90%;
+  height: 90%;
 }
-#pages .texto1{
-  padding: 9px;
-  grid-column: 1/4;
-  grid-row: 4/-4;
+#container .imagen4 img{
+  width: 90%;
+  height: 90%;
 }
