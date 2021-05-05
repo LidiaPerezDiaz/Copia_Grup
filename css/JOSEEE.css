@@ -34,6 +34,13 @@ grid-column: 1/2;
 grid-row: 2/3;
 }
 
+#container .omar9{
+padding: 9px;
+border-radius: 5px;
+grid-column: 1/2;
+grid-row: 1/2;
+}
+
 
 #container .okb4{
 padding: 10px;
