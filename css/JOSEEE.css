@@ -6,7 +6,7 @@
 #container{
 display:grid;
 border: 0px solid black;
-grid-template-columns: 4fr 1fr;
+grid-template-columns: 4fr 6fr;
 grid-template-rows: calc(10vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(13vh - 10px);
 }
 
