@@ -11,7 +11,7 @@ grid-template-rows: calc(10vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(1
 }
 
 
-#container.texto8{
+#container .texto8{
 padding: 10px;
 background-color:#87CEFA;
 border-radius: 5px;
@@ -19,7 +19,7 @@ grid-column: 1/5;
 grid-row: 1/2;
 }
 
-#container.texto1{
+#container .texto1{
 padding: 9px;
 background-color:#008080;
 border-radius: 5px;
@@ -27,21 +27,21 @@ grid-column: 1/2;
 grid-row: 2/2;
 }
 
-#container.imagen4{
+#container .imagen4{
 padding: 9px;
 border-radius: 5px;
 grid-column: 1/2;
-grid-row: 3/-3;
+grid-row: 2/3;
 }
 
 
-#container.okb4{
+#container .okb4{
 padding: 10px;
 grid-column: 2/4;
 grid-row: 2/4;
 }
 
-#container.pie{
+#container .pie{
 padding: 9px;
 background-color:#87CEFA;
 border-radius: 5px;
@@ -49,12 +49,12 @@ grid-column: 1/4;
 grid-row: 4/-1;
 }
 
-#container.imagen4 img{
-  width: 90%;
-  height: 90%;
+#container .imagen4 img{
+  width: 100%;
+  height: 100%;
 }
 
-#container.okb3 img{
+#container .okb3 img{
   width: 100%;
   height: 100%;
 }

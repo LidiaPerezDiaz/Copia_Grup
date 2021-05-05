@@ -5,7 +5,7 @@
 
 body{
   font-family: 'Ubuntu', sans-serif;
-  background-color: #EFEFEF;
+  background-color: green;
   color:white;
   font-size: 22px;
   background-image: url("../img/neo.jpg");
@@ -18,7 +18,7 @@ body{
   grid-template-rows: 10vh 8vh 30vh 4vh 30vh 8vh 10vh;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  background-color: #40E0D0
+  background-color: blue
 }
 
 #container .cabecera{
@@ -76,7 +76,7 @@ body{
 
 #container .texto3{
   padding: 9px;
-  background-color:#FF1493;
+  background-color:black;
   border-radius: 5px;
   grid-column: 3/4;
   grid-row: 6/4;
@@ -84,7 +84,7 @@ body{
 
 #container .imagen3{
   padding: 9px;
-  background-color:#FF1493;
+  background-color:green;
   border-radius: 5px;
   grid-column: 3/3;
   grid-row: 5/6;
@@ -92,7 +92,7 @@ body{
 
 #container .texto4{
   padding: 9px;
-  background-color:#FF1493;
+  background-color:green;
   border-radius: 5px;
   grid-column: 3/4;
   grid-row: 2/4;
@@ -100,14 +100,14 @@ body{
 
 #container .imagen4{
   padding: 9px;
-  background-color:#FF1493;
+  background-color:green;
   border-radius: 5px;
   grid-column: 3/3;
   grid-row: 3/4;
 }
 #container .texto8{
   padding: 9px;
-  background-color:#9400D3;
+  background-color:green;
   border-radius: 5px;
   grid-column: 2/4;
   grid-row: 1/;
