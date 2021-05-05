@@ -18,12 +18,12 @@ body{
   grid-template-rows: 10vh 8vh 30vh 4vh 30vh 8vh 10vh;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  background-color: red
+  background-color: #40E0D0
 }
 
 #container .cabecera{
   padding: 9px;
-  background-color:red;
+  background-color:#000000;
   border-radius: 5px;
   grid-column: 1/6;
   grid-row: 1/2;
@@ -44,7 +44,7 @@ body{
 
 #container .texto1{
   padding: 9px;
-  background-color:red;
+  background-color:#FF1493;
   border-radius: 5px;
   grid-column: 2/2;
   grid-row: 4/2;
@@ -52,7 +52,7 @@ body{
 
 #container .imagen1{
   padding: 9px;
-  background-color:red;
+  background-color:#FF1493;
   border-radius: 5px;
   grid-column: 2/3;
   grid-row: 3/3;
